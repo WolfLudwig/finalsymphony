@@ -1,0 +1,205 @@
+/* Fonts */
+
+/* Common */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+  background-image: linear-gradient(to left bottom, #ff0000, #c20023, #820327, #420f1d, #000000);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  border-top: 1px solid #000;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+
+}
+
+a:hover {
+  color: red;
+}
+
+.page__title,
+.section__title,
+.card__title {
+  text-align: center;
+  font-family: 'Marck Script', serif;
+}
+
+.page__title,
+.section__title {
+  text-decoration: underline;
+}
+
+.banner{
+  text-align: center;
+}
+/*Mobile version*/
+.page__title{
+  font-size: 2.5em
+}
+.section__title{
+  font-size: 2em;
+}
+.card__title{
+  font-size: 1.5em;
+}
+
+.card__text {
+  text-align: justify;
+  font-size: 1.1em;
+  padding: 0.2em 0.5em;
+
+}
+
+a {
+  display: block;
+}
+
+.navbar {
+  margin: 0 15%;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  line-height: 1.5em;
+  font-weight: 600;
+}
+
+.menu__current {
+  display: none;
+}
+
+.footer__part {
+  border-top: 1px solid #000;
+  margin: 2px 0;
+  padding: 10px;
+}
+
+.footer__part--secondary {
+  border: none;
+}
+
+.section {
+  border: 1px solid #000;
+  margin: 0.5em;
+  border-radius: 10px 0 10px 0;
+}
+
+.card {
+  border: 1px solid #444;
+  margin: 0.25em;
+  padding: 0.2em 0.25em;
+  border-radius: 10px;
+}
+.member__info {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0.1em 0.5em;
+}
+/* Screen 500*/
+
+@media screen and (min-width: 500px) {
+
+  a {
+    display: inline-block;
+    border-left: 1px solid #000;
+    padding: 0 0.5em;
+  }
+
+  .navbar__start {
+    border-left: none;
+  }
+}
+
+/* Screen 700*/
+
+@media screen and (min-width: 700px) {
+  .section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around
+  }
+
+  .section__title {
+    width: 100%;
+  }
+
+  .card {
+    width: 45%;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around
+  }
+
+  .footer__part {
+    width: 30%;
+    border-top: none;
+    border-right: 1px solid #fff;
+  }
+
+  .footer__part--tertiary {
+    border-right: none;
+  }
+
+  .card {
+    padding: 0.2em 0.5em;
+  }
+
+  .menu__current{
+    display: initial;
+    background-color: #000;
+    border-radius: 15px;
+    position: fixed;
+    right: 0.7em;
+    top: 40%;
+    width: 6%;
+    text-align: center;
+    padding: 2em 0;
+
+  }
+  .menu__button{
+    display: block;
+    color: #fff;
+    font-size: 1.1em;
+    line-height: 1.7em;
+  border-left: none;}
+}
+
+/* Screen 1000*/
+
+@media screen and (min-width: 1000px) {
+  .card {
+    width: 30%;
+  }
+}
