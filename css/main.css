@@ -276,7 +276,7 @@ ul {
     font-size: 2em;
     line-height: 2em;
   }
-  .card__text,
+  .member__info,
   .footer__part{
     font-size: 1.5em;
     line-height: 1.5em;
@@ -302,7 +302,7 @@ ul {
     font-size: 2.5em;
     line-height: 2.5em;
   }
-  .card__text,
+  .member__info,
   .footer__part{
     font-size: 2em;
     line-height: 2em;
@@ -318,6 +318,6 @@ ul {
 }
 @media screen and (min-width: 1900px) {
   .member__card{
-    height: 650px;
+    height: 700px;
   }
 }
