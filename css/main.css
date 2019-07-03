@@ -154,8 +154,11 @@ a {
   border-collapse: collapse;
   margin: 0 auto;
   padding: 0.1em 0.5em;
+  font-size:0.95em;
 }
-
+ul {
+  list-style: none;
+}
 /* Screen 500*/
 
 @media screen and (min-width: 500px) {
