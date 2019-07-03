@@ -284,6 +284,9 @@ ul {
   .menu__button{
     font-size: 1em;
   }
+  .member__block{
+    height: 90%;
+  }
 }
 
 @media screen and (min-width: 1700px) {
@@ -309,6 +312,9 @@ ul {
   }
   .menu__button{
     font-size: 1.5em;
+  }
+  .member__block{
+    height: 87%;
   }
 }
 @media screen and (min-width: 1800px) {
