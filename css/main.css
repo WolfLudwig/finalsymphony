@@ -321,9 +321,13 @@ ul {
   .member__card{
     height: 600px;
   }
+  .member__block{
+    height: 84%;
+  }
 }
 @media screen and (min-width: 1900px) {
   .member__card{
     height: 700px;
   }
+  
 }
